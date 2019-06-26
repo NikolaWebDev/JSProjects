@@ -1,0 +1,22 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorBtn{
+    background: #44eee3;
+    color: white;
+    padding: 0.25rem 2rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 30px;
+    text-transform: capitalize;
+    outline: none;
+}
+.colorBtn:hover{
+    background: #44e085;
+    color: green;
+    cursor: pointer;
+}

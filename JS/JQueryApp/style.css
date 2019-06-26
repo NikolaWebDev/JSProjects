@@ -1,0 +1,67 @@
+
+/* ------------ Javascript APP ------------------ */
+
+body{
+    position: relative;
+}
+
+.sideBar{
+height: 500px;
+}
+
+header{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 750px;
+}
+
+.side-bar{
+    background-color: rgb(231, 229, 229);
+    height: 80vh;
+    position: absolute;
+    right: 0;
+    top: 6vh;
+    width: 12%;
+    text-align: center;
+}
+
+.side-bar a {
+    padding: 10px 30px;
+    background: blue;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    display:inline-block;
+    margin-top: 20px;
+}
+
+.introText, .introTextColor{
+    margin-bottom: 5px;
+}
+
+#updateBtn{
+    margin-top: 5px;
+    background-color: red;
+    
+}
+
+.newBackgrounds{
+    display: flex;
+    justify-content: space-around;
+    background-color: #998b8b;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.newBackgrounds > div{
+    width: 20%;
+    height: 60px;
+    background-color: red;
+    background-size: cover;
+}
+
+.addBorder{
+    border: 4px solid red; 
+    cursor: pointer;
+}
